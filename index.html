@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nalu Intimates</title>
+    <script src="https://kit.fontawesome.com/64db13f2fb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-productos" class="btn-header">Productos</a>
+                    <a href="#" id="enlace-about" class="btn-header">About</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Nalu Intimates</h1>
+            <h2>Lenceria</h2>
+        </div>
+    </header>
+    <main>
+        <section class="work contenedor" id="productos">
+            <h3>Nuestros productos:</h3>
+            <p class="after">Tenemos una amplia cantidad de productos acorde <br> a las necesidades de nuestro clientes:
+            </p>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='cat1'>Algodon</li>
+                    <li class="filter" data-nombre='cat2'>Encaje</li>
+                    <li class="filter" data-nombre='cat3'>Microtul</li>
+                    <li class="filter" data-nombre='cat4'>Puntilla</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <!-- Cat 1 ---------------------------------------------------------------- -->
+                <div class="cont-work cat1">
+                    <div class="img-work">
+                        <img src="img/algodon1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Algodon</h4>
+                    </div>
+                </div>
+                <!-- Cat 2 ---------------------------------------------------------------- -->
+                <div class="cont-work cat2">
+                    <div class="img-work">
+                        <img src="img/encaje1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Encaje</h4>
+                    </div>
+                </div>
+                <!-- Cat 3 ---------------------------------------------------------------- -->
+                <div class="cont-work cat3">
+                    <div class="img-work">
+                        <img src="img/microtul1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Microtul</h4>
+                    </div>
+                </div>
+                <!-- Cat 4 ---------------------------------------------------------------- -->
+                <div class="cont-work cat4">
+                    <div class="img-work">
+                        <img src="img/puntilla1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Puntilla</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="info">
+            <div class="contenedor">
+                <h3>Sobre nosotros:</h3>
+                <p class="after">Siempre mejorando para ti.</p>
+                <div class="informacion">
+                    <div class="caja-informacion">
+                        <!-- <img src="" alt=""> -->
+                        <h4>Somos un pequeño negocio de venta de lenceria.</h4>
+                        <p>informacion</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="team contenedor" id="equipo">
+            <h3>Nuestro equipo</h3>
+            <p>Conocenos:</p>
+            <div class="card">
+                <div class="content-card">
+                    <div class="people">
+                        <img src="Luli" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Lucila Sanchez</h4>
+                        <p>CEO</p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="Luli" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Tomas Sanchez</h4>
+                        <p>CEO</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <footer id='contacto'>
+        <div class="fotter contenedor">
+            <div class="marca-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="iconos">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <p>Frase</p>
+        </div>
+    </footer>
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/filtro.js"></script>
+</body>
+
+</html>
