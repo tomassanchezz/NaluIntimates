@@ -239,8 +239,9 @@ nav .enlaces a:hover{
 }
 
 /* About */
+
 .about{
-    background: url(img/playa3.jpeg);
+    /* background: url(img/playa3.jpeg); */
     background-size: cover;
     height: auto;
 }
